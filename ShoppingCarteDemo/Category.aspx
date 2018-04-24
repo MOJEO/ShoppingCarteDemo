@@ -13,7 +13,7 @@
             <table style="width:100%;">
                 <tr>
                     <td>
-                        <asp:Image ID="Image1" runat="server" ImageUrl='<%# "Images/"+Eval("IMAGE") %>' Width="500px" Height="500px" />
+                        <asp:Image ID="Image1" runat="server" ImageUrl='<%# "Images/"+Eval("IMAGE") %>' Width="400px" Height="400px" />
                     </td>
                 </tr>
                 <tr>

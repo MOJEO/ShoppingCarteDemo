@@ -6,7 +6,7 @@
     <asp:GridView ID="gvShoppingCart" runat="server" AutoGenerateColumns="False" OnRowCancelingEdit="gvShoppingCart_RowCancelingEdit" OnRowDeleting="gvShoppingCart_RowDeleting" OnRowEditing="gvShoppingCart_RowEditing" OnRowUpdating="gvShoppingCart_RowUpdating">
     <Columns>
         <asp:BoundField DataField="NAME" HeaderText="Product Name" ReadOnly="True" />
-        <asp:ImageField DataImageUrlField="IMAGE" DataImageUrlFormatString="~\Images\{0}" HeaderText="Image">
+        <asp:ImageField DataImageUrlField="IMAGE" DataImageUrlFormatString="~\Images\{0}" HeaderText="Image" ControlStyle-Height="150px" ControlStyle-Width ="150px" ReadOnly="True">
         </asp:ImageField>
         <asp:BoundField DataField="PRICE" HeaderText="Price" ReadOnly="True" />
         <asp:BoundField DataField="QUANTITY" HeaderText="Quantity" />

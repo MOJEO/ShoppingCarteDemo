@@ -23,8 +23,8 @@ public partial class ProductDetails : System.Web.UI.Page
     }
 
     protected void btnAddToCart_Click(object sender, EventArgs e)
-    {
-        if(myCart == null)
+    {       
+        if (Session["myCart"] == null)
         {
            myCart = new ShoppingCart();
            Session["myCart"]=myCart ;       
